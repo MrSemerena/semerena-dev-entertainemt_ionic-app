@@ -1,0 +1,7 @@
+{
+  "name": "Semerena-DEV-Entertainment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
