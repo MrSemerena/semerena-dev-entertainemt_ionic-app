@@ -1,13 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>manga</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>The Manga Library</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">manga</ion-title>
+      <ion-title size="large">Check this out:</ion-title>
     </ion-toolbar>
+    <br>
+    <app-manga-header-slider></app-manga-header-slider>
   </ion-header>
+  <br>
+  <div class="glass-content">
+    <app-manga-banners></app-manga-banners>
+    <br>
+    <app-manga-cards></app-manga-cards>
+  </div>
 </ion-content>

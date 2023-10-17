@@ -1,13 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>mgtow</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>The MGTOW & Red Pill Bar</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">mgtow</ion-title>
+      <ion-title size="large">Check this out:</ion-title>
     </ion-toolbar>
+    <br>
+    <app-mgtow-header-slider></app-mgtow-header-slider>
   </ion-header>
+  <br>
+  <div class="glass-content">
+    <app-mgtow-banners></app-mgtow-banners>
+    <br>
+    <app-mgtow-cards></app-mgtow-cards>
+  </div>
 </ion-content>

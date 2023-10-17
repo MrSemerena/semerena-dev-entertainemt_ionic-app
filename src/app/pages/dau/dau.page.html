@@ -1,13 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>dau</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>The Devil Artimus Universe Central</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">dau</ion-title>
+      <ion-title size="large">Check this out:</ion-title>
     </ion-toolbar>
+    <br>
+    <app-dau-header-slider></app-dau-header-slider>
   </ion-header>
+  <br>
+  <div class="glass-content">
+    <app-dau-banners></app-dau-banners>
+    <br>
+    <app-dau-cards></app-dau-cards>
+  </div>
 </ion-content>

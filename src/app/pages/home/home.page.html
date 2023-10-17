@@ -1,13 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>home</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">home</ion-title>
+      <ion-title size="large">Welcome!</ion-title>
     </ion-toolbar>
+    <br>
+    <app-home-header-slider></app-home-header-slider>
   </ion-header>
+  <div class="glass-content">
+    <app-home-banners></app-home-banners>
+    <br>
+    <app-home-cards></app-home-cards>
+  </div>
 </ion-content>

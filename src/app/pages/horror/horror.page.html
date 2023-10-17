@@ -1,13 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>horror</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>The Horror Vault</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">horror</ion-title>
+      <ion-title size="large">Check this out:</ion-title>
     </ion-toolbar>
+    <br>
+    <app-horror-header-slider></app-horror-header-slider>
   </ion-header>
+  <br>
+  <div class="glass-content">
+    <app-horror-banners></app-horror-banners>
+    <br>
+    <app-horror-cards></app-horror-cards>
+  </div>
 </ion-content>

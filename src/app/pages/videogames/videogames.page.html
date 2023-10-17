@@ -1,13 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>videogames</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>The Videogames Shack</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">videogames</ion-title>
+      <ion-title size="large">Check this out:</ion-title>
     </ion-toolbar>
+    <br>
+    <app-videogames-header-slider></app-videogames-header-slider>  
   </ion-header>
+  <br>
+  <div class="glass-content">
+    <app-videogames-banners></app-videogames-banners>
+    <br>
+    <app-videogames-cards></app-videogames-cards>
+  </div>
 </ion-content>
